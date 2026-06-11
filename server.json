@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/neon-mcp",
+  "title": "Neon MCP",
+  "description": "Connect your Neon account to AI via Brazil's Open Finance: balances, statements, cards, investments.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/neon-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_neon"
+    }
+  ]
+}
